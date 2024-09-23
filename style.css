@@ -1251,7 +1251,8 @@ border: none;
     .Es {
         text-align: center;
         display: block; 
-        padding-left: 0; 
+        padding-left: 0;
+        margin-left:-45px;
     }
 
     .Exploring {
