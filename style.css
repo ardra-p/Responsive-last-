@@ -1074,9 +1074,13 @@ border: none;
     }
 
     .UI, .stratergy, .multi {
-        width: 100%; 
-        max-width: 100%; 
-        padding: 15px;
+        
+        width: 100%; /* Full width */
+        max-width: 440px; /* Remove max-width */
+        padding: 20px;
+        margin: 0; /* No margin */
+        height: 350px;
+        border-radius: 10px;
     }
 
     h2 {
