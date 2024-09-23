@@ -1070,6 +1070,7 @@ border: none;
         flex-direction: column; 
         gap: 20px; 
         padding: 10px; 
+        
     }
 
     .UI, .stratergy, .multi {
@@ -1153,11 +1154,12 @@ border: none;
     }
 
     .UI, .stratergy, .multi {
-        width: 100%; /* Full width */
-        max-width: none; /* Remove max-width */
+       width: 100%; 
+        max-width: 440px; 
         padding: 20px;
-        margin: 0; /* No margin */
+        margin: 0; 
         height: 350px;
+        border-radius: 10px;
     }
     .boxes p{
         text-wrap: balance;
@@ -1389,7 +1391,7 @@ border: none;
             padding-bottom: 10px;
             padding-left: 100px; 
             padding-right: 100px;
-            margin-left: 1000px;
+            margin-left: 1090px;
         }
     
         .ft, .fts {
